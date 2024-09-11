@@ -43,6 +43,8 @@
                         return;
                     }
                     progress.style.background = `conic-gradient(${color} ${degree}%, #222 0%)`;
+                    number.innerHTML = degree + '<span>%</span>';
+                    number.style.color = color;
                 },50)
             })
         })
